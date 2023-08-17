@@ -1,5 +1,4 @@
 // Bitwise Operations
-
 // These operations are performed on the Binary Level . 
 
 class Bitwise 

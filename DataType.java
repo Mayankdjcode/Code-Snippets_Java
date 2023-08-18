@@ -1,3 +1,5 @@
+// Code depicting nature and uses of various fundamental data types 
+
 class DataType 
 {
 	public static void main(String[] args) 

@@ -7,7 +7,7 @@ class Ternary
 	{
 		int x=5;
 		int y=3;
-		int max = (x > y) ? x : y; // Explanation: if (x > y) is true, x is printed. Else, y.
+		int max = (x > y) ? x : y; // Explanation: if (x > y) is true, x is printed(i.e. Left side of :). Else, y (i.e. Right side of :).
 		System.out.println(max);
 	}
 }

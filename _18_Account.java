@@ -1,4 +1,6 @@
-public class _18_Class {
+// data hiding and abstraction , class and object
+
+public class _18_Account {
 
     public static void main(String[] args) {
         Balance b=new Balance();
@@ -16,12 +18,12 @@ class Balance
 
     public int getX() {
         //validation
-        return x;
+        return x;        //10000
     }
 
     public void setX(int x) {
         //validation
-        this.x = x;
+        this.x = x;       //3333
     }
 
 }

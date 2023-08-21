@@ -1,0 +1,244 @@
+package forexamples;
+
+public class ForTest1 {
+
+    public static void main(String[] args) {
+
+        //why ?
+     for(int i=1;i<=10;i++)
+     {
+         System.out.println(i);
+     }
+
+    }
+}
+
+
+
+package methods;
+
+public class AddNum {
+    public static void main(String[] args) {
+
+        int x=10;
+        int y=10;
+       int res=addNumbers(x,y);
+       System.out.println(res);
+
+
+       // public method
+        SiyaRam s = new SiyaRam();
+        s.printSiyaRam();
+
+        //private method call
+        //ModifiersTest m=new ModifiersTest();
+        //m.printHello();
+    }
+
+    public static int addNumbers(int a,int b)
+    {
+        int c= a+b;
+        return c;
+    }
+}
+
+
+package methods;
+
+public class Animal {
+
+    public static void main(String[] args) {
+        Dog d=new Dog();
+        d.makeNoise();
+    }
+
+    protected void makeNoise()
+    {
+        System.out.println("Animal make noise...");
+    }
+}
+
+class Dog extends Animal{
+    protected void makeNoise()
+    {
+        System.out.println("Dog bark");
+    }
+}
+
+
+package methods;
+
+public class Car {
+
+    public static void main(String[] args) {
+
+        Car car=new Car();
+        car.startEngine(); // public
+        car.stopEngine(); //
+        car.accelerate();
+        car.horn();
+    }
+
+    public void startEngine()
+    {
+        System.out.println("Engine Star...");
+    }
+
+    private void stopEngine()
+    {
+        System.out.println("Engine Stop...");
+    }
+
+    protected void accelerate()
+    {
+        System.out.println("Car running..");
+    }
+
+     void horn()
+    {
+        System.out.println("keee keee");
+    }
+}
+
+
+package methods;
+
+public class DefaultMethod {
+
+    public static void main(String[] args) {
+
+        DefaultMethodTest defaultMethodTest=new DefaultMethodTest();
+        defaultMethodTest.defaultTest();
+    }
+}
+
+package methods;
+
+public class DefaultMethodTest {
+    void defaultTest()
+    {
+        System.out.println("Jai Shree RAM....");
+    }
+}
+
+
+package methods;
+
+public class ExampleModifiers1 {
+
+    public void printRam()
+    {
+        //This method accessible from anywhere
+    }
+    private void printSiyaRam()
+    {
+        //This method accessible within class
+    }
+
+    protected void printRavan(){
+        //This method accessible within package + subclass
+    }
+
+    void print()
+    {
+        //This method accessible within package
+    }
+}
+
+
+package methods;
+
+public class ModifiersTest {
+    public static void main(String[] args) {
+
+        ModifiersTest m=new ModifiersTest();
+        m.printHello();
+    }
+    private void printHello()
+    {
+        System.out.println("Hello Ashwani");
+    }
+}
+
+
+
+package methods;
+public class TestMethod {
+
+    public static void main(String[] args) {
+
+        TestMethod t =new TestMethod();
+        t.ram();
+
+        //ram();
+        //new
+        //create object
+        SiyaRam s = new SiyaRam();
+        s.printSiyaRam();
+
+    }
+
+    //example print jai shre ram
+
+    public void ram()
+    {
+        System.out.println("Jai Shree Ram");
+    }
+
+}
+
+
+// when we have methods in different class or package then we call the method
+// by using object
+class SiyaRam{
+
+    public void printSiyaRam()
+    {
+        System.out.println("Jai Siya Ram");
+    }
+}
+
+
+package methods;
+
+public class TestPro {
+    protected void printPro()
+    {
+        System.out.println("Hello Pro Bhai...");
+    }
+}
+
+class TestProAgain extends TestPro
+{
+
+}
+
+
+package methods;
+
+import testMethod.DemoPro;
+
+public class TestProtected {
+
+    public static void main(String[] args) {
+
+     /*   TestPro testPro=new TestPro(); // parent class object
+        testPro.printPro();*/
+
+        TestProAgain t=new TestProAgain();  /// child class object
+        t.printPro();
+
+        DemoPro demoPro =new DemoPro();
+        demoPro.printPro();
+    }
+}
+
+
+package testMethod;
+
+import methods.TestPro;
+
+public class DemoPro extends TestPro {
+
+
+}

@@ -1,7 +1,7 @@
 //Code to demonstrate the use and behavior of Ternary operator
 
 
-class Ternary 
+class _11_Ternary 
 {
 	public static void main(String[] args) 
 	{

@@ -1,6 +1,6 @@
 // Code depicting nature and uses of various fundamental data types 
 
-class DataType 
+class _14_DataType 
 {
 	public static void main(String[] args) 
 	{

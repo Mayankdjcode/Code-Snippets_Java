@@ -1,6 +1,6 @@
 // Decision Making, Control Flow Statements
 
-class opcf
+class _15_opcf
 {
 	public static void main(String[] args) 
 	{

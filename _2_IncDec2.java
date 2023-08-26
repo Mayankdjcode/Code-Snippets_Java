@@ -1,6 +1,6 @@
 //Code depicting simple arithmetic operation after incrementation and decrementation of a variable.
 
-class IncDec2 {
+class _2_IncDec2 {
     public static void main(String[] args) 
 	{
 		int a=6;

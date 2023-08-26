@@ -1,6 +1,6 @@
 // Bitwise left-shift and right-shift operations with assignment.
 
-class _10_Bitwise2
+class _9_Bitwise2
 {
 	public static void main(String[] args) 
 	{

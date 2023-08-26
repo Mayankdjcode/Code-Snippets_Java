@@ -1,6 +1,6 @@
 //Performing basic operations with arithmetic operators and identifying their behavior
 
-class Operators
+class _1_Operators
 {
 	
 	public static void main(String[] args) 

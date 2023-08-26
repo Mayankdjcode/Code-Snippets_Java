@@ -1,6 +1,6 @@
 // Operations using boolean logical operators including unary logical negation ( ! ), binary logical AND ( & ), OR ( | ), and exclusive OR ( ^ )
 
-class BooleanLogical 
+class _8_BooleanLogical 
 {
 	public static void main(String[] args) 
 	{

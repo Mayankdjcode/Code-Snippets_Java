@@ -1,6 +1,6 @@
 // Incement and decrement operations with arithmetic operation.
 
-class IncDec4
+class _2_IncDec4
 {
 	public static void main(String[] args) 
 	{

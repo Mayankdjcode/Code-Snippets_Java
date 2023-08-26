@@ -1,7 +1,7 @@
 // Ternary operation example 3
 // Refer Ternary2.java
 
-class Ternary3
+class _11_Ternary3
 {
 	public static void main(String[] args) 
 	{

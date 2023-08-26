@@ -1,6 +1,6 @@
 //Code analyzing behaviour of Pre, Post Increment and Decrement operators
 
-class IncDec 
+class _2_IncDec 
 {
 	public static void main(String[] args) 
 	{

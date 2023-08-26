@@ -1,6 +1,6 @@
 // Ternary operation example 2
 
-class Ternary2 
+class _11_Ternary2 
 {
 	public static void main(String[] args) 
 	{

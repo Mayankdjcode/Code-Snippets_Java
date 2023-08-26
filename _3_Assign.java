@@ -1,6 +1,6 @@
 //Assignment of values and operations
 
-class Assign 
+class _3_Assign 
 {
 	public static void main(String[] args) 
 	{

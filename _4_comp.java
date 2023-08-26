@@ -1,6 +1,6 @@
 // Comparison Operators
 
-class comp 
+class _4_comp 
 {
 	public static void main(String[] args) 
 	{

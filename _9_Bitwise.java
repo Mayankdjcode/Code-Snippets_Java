@@ -1,7 +1,7 @@
 // Bitwise Operations
 // These operations are performed on the Binary Level . 
 
-class Bitwise 
+class _9_Bitwise 
 {
 	public static void main(String[] args) 
 	{
